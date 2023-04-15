@@ -1,0 +1,19 @@
+$purple: #30003b;
+$white: #fff;
+$green: #539749;
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  background-color: $green;
+  color: $white;
+
+  a {
+    position: absolute;
+    left: 1rem;
+    color: $white;
+  }
+}
