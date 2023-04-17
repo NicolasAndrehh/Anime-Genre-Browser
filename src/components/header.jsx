@@ -13,7 +13,7 @@ const Header = () => {
         <FontAwesomeIcon icon={faAngleLeft} />
       </NavLink>
       )}
-      <h3>Genre Anime Browser</h3>
+      <h3>Anime Genre Browser</h3>
     </header>
   );
 };

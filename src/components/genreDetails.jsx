@@ -12,6 +12,7 @@ const GenreDetails = ({ genreId }) => {
   const { genres } = useSelector((state) => state.animeGenres);
   const dispatch = useDispatch();
   const indexOfGenre = genres.findIndex((genre) => genre.mal_id === genreId);
+  // This state is for this component so it's not necesary to use redux
   const [showAnimes, setShowAnimes] = useState(true);
 
   useEffect(() => {

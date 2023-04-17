@@ -34,6 +34,8 @@
 
 **Anime Genre Browser** is an open-source platform for exploring anime by genre, powered by the Jikan API. It aims to make discovering new titles based on preferred genres easy and accessible for anime lovers.
 
+You can see a waklthrough of the project [here](https://www.loom.com/share/085e8e7bf2314d18a8a9696c7f8df590)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
