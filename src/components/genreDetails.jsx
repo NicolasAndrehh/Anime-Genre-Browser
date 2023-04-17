@@ -42,8 +42,8 @@ const GenreDetails = ({ genreId }) => {
         Animes
         {
           showAnimes
-            ? <FontAwesomeIcon icon={faAngleDown} />
-            : <FontAwesomeIcon icon={faAngleRight} />
+            ? <FontAwesomeIcon icon={faAngleDown} className="icon" />
+            : <FontAwesomeIcon icon={faAngleRight} className="icon" />
         }
       </button>
       {isLoading && <h2 style={{ color: '#fff', margin: 'auto' }}>Loading...</h2>}
