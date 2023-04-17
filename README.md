@@ -76,6 +76,14 @@ You can see a waklthrough of the project [here](https://www.loom.com/share/085e8
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Anime Genre Browser - Live Demo](https://anime-genre-browser.onrender.com)
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -121,7 +129,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-- Not deployed yet
+- Deployed using Render
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
