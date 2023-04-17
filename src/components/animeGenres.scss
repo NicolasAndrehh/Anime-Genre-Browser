@@ -42,8 +42,8 @@ $cardText: #539749;
     border-bottom: 1px solid $black;
     color: $white;
     background: #385a33;
-    padding: 0rem 0.5rem 0rem 0rem;
-    
+    padding: 0 0.5rem 0 0;
+
     .search-bar {
       width: 100%;
       border: 0;
@@ -54,12 +54,11 @@ $cardText: #539749;
       &::placeholder {
         color: $white;
       }
-  
+
       &:focus {
         outline: none;
       }
     }
-
   }
 
   .anime-filter {
