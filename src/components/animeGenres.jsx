@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faAngleRight, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import getGenres from '../redux/animeGenres/actions';
 import Genre from './genre';
 import './animeGenres.scss';
@@ -38,7 +38,10 @@ const AnimeGenres = () => {
           genres)
         </p>
       </div>
-      <input type="text" placeholder="Search" className="search-bar" value={searchText} onChange={handleSearch} />
+      <div className="search-bar-container">
+        <input type="text" placeholder="Search" className="search-bar" value={searchText} onChange={handleSearch} />
+        <FontAwesomeIcon icon={faMagnifyingGlass} />
+      </div>
       <button type="button" className="anime-filter" onClick={() => setShowGenres(!showGenres)}>
         Anime Genres
         {

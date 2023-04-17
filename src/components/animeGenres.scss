@@ -33,21 +33,33 @@ $cardText: #539749;
     }
   }
 
-  .search-bar {
+  .search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     border: 0;
     border-bottom: 1px solid $black;
     color: $white;
-    background: $cardText;
-    padding: 0.35rem;
-
-    &::placeholder {
+    background: #385a33;
+    padding: 0rem 0.5rem 0rem 0rem;
+    
+    .search-bar {
+      width: 100%;
+      border: 0;
+      background: none;
       color: $white;
+      padding: 0.5rem;
+
+      &::placeholder {
+        color: $white;
+      }
+  
+      &:focus {
+        outline: none;
+      }
     }
 
-    &:focus {
-      outline: none;
-    }
   }
 
   .anime-filter {
