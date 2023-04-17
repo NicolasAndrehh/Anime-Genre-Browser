@@ -146,6 +146,13 @@ To run tests, run the following command:
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Improve UI design]**
+- [ ] **[Improve the desktop version]**
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
