@@ -10,6 +10,7 @@ import { clearSlice } from '../redux/genreDetails/genreDetailsSlice';
 const AnimeGenres = () => {
   const { genres, isLoading, errorMessage } = useSelector((state) => state.animeGenres);
   const dispatch = useDispatch();
+  // This state is for this component so it's not necesary to use redux
   const [showGenres, setShowGenres] = useState(true);
 
   useEffect(() => {

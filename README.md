@@ -1,5 +1,10 @@
-
 <a name="readme-top"></a>
+
+<div align="center">
+
+  <h1><b>Anime Genre Browser</b></h1>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -9,11 +14,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -23,41 +30,39 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Traveller's Hub <a name="about-project"></a>
+# 📖 Anime Genre Browser <a name="about-project"></a>
 
-**Space Traveller's Hub** is a website that shows Rockets and missions using SpaceX API, and let you: 
+**Anime Genre Browser** is an open-source platform for exploring anime by genre, powered by the Jikan API. It aims to make discovering new titles based on preferred genres easy and accessible for anime lovers.
 
-- Display a list of Rockets and Missions
-- Reserve Rockets
-- Join Missions
+You can see a waklthrough of the project [here](https://www.loom.com/share/085e8e7bf2314d18a8a9696c7f8df590)
+
 ## 🛠 Built With <a name="built-with"></a>
 
-
 ### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>Client</summary>
   <ul>
-   <li>HTML</li>
-   <li>CSS</li>
-   <li>Javascript</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>WebPack</li>
-    <li>Node js</li>
+    <li>HTML</li>
+    <li>CSS/SASS</li>
+    <li>JavaScript</li>
     <li>React</li>
     <li>Redux</li>
   </ul>
 </details>
 
 <details>
+  <summary>Server</summary>
+  <ul>
+    <li>Render</li>
+  </ul>
+</details>
+
+<details>
 <summary>Database</summary>
   <ul>
-    <li>N/A</li>
+    <li>No database was required for this project</li>
   </ul>
 </details>
 
@@ -65,94 +70,75 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Display a list of Rockets and Missions
-- Reserve Rockets
-- Join Missions
+- **[Anime genre categorization]**
+- **[User-friendly interface]**
+- **[Dynamic content]**
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Currently, there are not Live Demo available. We will let you know when it's available ASAP!
-
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- Getting Started -->
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To run the project locally, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
-
-- Install [Git](https://git-scm.com/)
-- Install [Node](https://nodejs.org/en/)
-- Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
+- You'll need any code editor 
 
 ### Setup
 
-Clone the repo into your local machine:
+Clone this repository to your desired folder:
 
-```bash
-git clone git@github.com:NicolasAndrehh/React-Group-Capstone.git 
+```sh
+  git clone git@github.com:NicolasAndrehh/Anime-Genre-Browser.git
+  cd Anime-Genre-Browser 
 ```
 
-Install the dependencies using npm:
-```bash
-npm install
+### Install
+
+Install this project with:
+
+```sh
+  npm install
 ```
 
 ### Usage
 
-To start the development server run
-```bash
-npm run start
+To run the project, execute the following command:
+
+```sh
+  npm start
 ```
-- this command will start the development server on `localhost:8080` address
 
-To create and optimized production build run
-```bash
-npm run build
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
 ```
-- this command will create a bunduled chunks of code inside `dist/` folder
 
+### Deployment
 
-<p align="right"><a href="#readme-top">👆</a></p>
+- Not deployed yet
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **Nicolas Olaya**
 
 - GitHub: [@NicolasAndrehh](https://github.com/NicolasAndrehh)
 - Twitter: [@nicolasolaya22](https://twitter.com/nicolasolaya22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-olaya)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-olaya/)
 
-👤 **Jaime Villegas**
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
-- GitHub: [@githubhandle](https://github.com/jaimevillegas)
-- Twitter: [@jaimevillegazz](https://twitter.com/JaimeVillegazz)
-- LinkedIn: [Villegas0296](https://www.linkedin.com/in/villegas0296/)
-- Medium: [@jaimevillegas296](https://medium.com/@jaimevillegas296)
-
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Add Dragons.
-- Add more styling.
-- Deploy the page.
-
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- Contributing -->
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -160,28 +146,28 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- Show your support -->
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project leave a start for it.
+If you like this project you can give it a star!
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for helping us in the journey to become a Fullstack developer 🌹
+I would like to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) because this project is based on his original design idea.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p>
 
-<!-- LICENSE -->
+<!-- FAQ (optional) -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p>
